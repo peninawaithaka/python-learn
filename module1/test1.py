@@ -3,6 +3,23 @@ Lists
 --Examples
 '''
 
+fruits = ['apple','Cherry','orange','banana', 'kiwi','melon','mango']
+print(len(fruits))
+
+#Lists Indexing
+
+print(fruits[-1])
+
+print(fruits[2:5]) #2nd index is included, 5th index is ommitted
+
+print(fruits[:4]) #excludes the 4th item
+
+print(fruits[2:])
+
+#list constructor
+prices = list((1,2,3,2,2,))
+print(prices)
+
 if True:
     print('Its True')
 
