@@ -16,7 +16,7 @@ def print_words(story_words):
 
 def main():
     words = fetch_words()
-    print_words(words)
+    print(words)
 
 if __name__ == '__main__': #detects if the module is run as script or imported as a module
     main()
