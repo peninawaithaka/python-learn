@@ -2,6 +2,7 @@ from urllib.request import urlopen
 
 
 def fetch_words(): 
+    '''Fetchs the list of words form the url attached, decodes bytes to strings and returns a list of words'''
     story = urlopen('https://sixty-north.com/c/t.txt')
     story_words = []
     for line in story:
