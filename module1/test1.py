@@ -47,3 +47,9 @@ def set_count(a):
 show_count()
 set_count(7)
 show_count() #prints out 7 since count is globally scoped
+
+
+#built-in collections
+#tuples -immutable sequences of arbitrary objects
+
+t = ('')
